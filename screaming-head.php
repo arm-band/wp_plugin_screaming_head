@@ -1,4 +1,11 @@
 <?php
+/*
+Plugin Name: Screaming Head
+Description: WordPress の head タグの中を整理するプラグインです(※設定画面付き)。
+Version:     0.0.1
+Author:      アルム＝バンド
+*/
+
 
 class ScreamingHead
 {
