@@ -248,7 +248,7 @@ class ScreamingHead
         $flagArray = [];
 
         foreach( $this->keyArray as $key => $value ) {
-            if( get_option( SCREAMINGHEAD_SETTINGS_PARAMETERS ) !== false ) {
+            if( get_option( self::SCREAMINGHEAD_SETTINGS_PARAMETERS ) !== false ) {
                 // プラグインのパラメータの読み込みができた場合
                 // $data にキー $key の値が存在するならば
                 $flagArray[$key] = array_key_exists($key, $data) ? $data[$key] : 0;
